@@ -10,6 +10,10 @@ main{
 h1{
     text-align: center;
 }
+.navbar {
+    position: sticky;
+    top: 0;
+}
 .navbar ul{
     list-style-type: none;
     background-color: rgb(49, 49, 49);
