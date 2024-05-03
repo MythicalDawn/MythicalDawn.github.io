@@ -39,7 +39,7 @@ h1{
 
 .content {
     width: 9.5%;
-    height: 636px;
+    min-height: 636px;
     border: 2px solid #6d6d6d;
     background-color: #353535;
     display: flex;
@@ -60,10 +60,11 @@ h1{
     cursor: pointer;font-size: 25px; background-color: rgba(0, 0, 0, 0);width: 180px; color: white;border: none;
   }
   .overlap1eve {
+    overflow-y: auto; /*Fix Overflow Scroll*/
     position: fixed;
     background-color: rgb(97, 104, 110);
     width: 90.25%;
-    height: 640px;
+    min-height: 640px;
     left: 9.75%;
     top: 239px;
   }
