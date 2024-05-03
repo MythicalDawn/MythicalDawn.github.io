@@ -36,14 +36,34 @@ h1{
     float: left;
     border: 2px solid rgb(59, 59, 59);
 }
-/*.evcatalog {
+
+.content {
+    width: 9.5%;
+    height: 636px;
+    border: 2px solid #6d6d6d;
+    background-color: #353535;
+    display: flex;
+  }
+  
+  .box {
+    padding-left: 0px;
+    height: 33px;
+  }
+  
+  #col {
+    flex-direction: column;
+  }
+  .buttonhoveve p:hover{
+    background-color: #6d6d6d;
+  }
+  .buttonhoveve button{
+    cursor: pointer;font-size: 25px; background-color: rgba(0, 0, 0, 0);width: 180px; color: white;border: none;
+  }
+  .overlap1eve {
     position: fixed;
-    float: left;
-}
-.evcatalog a{
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
-}*/
+    background-color: rgb(97, 104, 110);
+    width: 90.25%;
+    height: 640px;
+    left: 9.75%;
+    top: 239px;
+  }
