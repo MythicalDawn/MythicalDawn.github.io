@@ -36,10 +36,9 @@ h1{
     float: left;
     border: 2px solid rgb(59, 59, 59);
 }
-.evcatalog {
+/*.evcatalog {
     position: fixed;
     float: left;
-
 }
 .evcatalog a{
     color: white;
@@ -47,4 +46,4 @@ h1{
     padding: 15px;
     display: block;
     text-align: center;
-}
+}*/
