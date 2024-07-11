@@ -1,5 +1,11 @@
 body{
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: url('blank.png') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 main{
     margin-left: 20px;
