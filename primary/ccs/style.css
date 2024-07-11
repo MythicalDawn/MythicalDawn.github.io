@@ -3,7 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background: url('blank.png') no-repeat;
+    background: url('https://mythicaldawn.github.io/assets/image/Above%20the%20clouds.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -22,25 +22,26 @@ h1{
 }
 .navbar ul{
     list-style-type: none;
-    background-color: rgb(49, 49, 49);
+    background-color: rgba(49, 49, 49, 0.5);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
-    border: 2px solid rgb(92, 92, 92);
+    border: 2px solid rgba(92, 92, 92, 0.5);
 }
 .navbar a{
-    color: white;
+    color: rgba(255, 255, 255, 0.75);
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
+    font-weight: 600;
 }
 .navbar a:hover{
-    background-color: rgb(56, 56, 56);
+    background-color: rgba(56, 56, 56, 0.5);
 }
 .navbar li{
     float: left;
-    border: 2px solid rgb(59, 59, 59);
+    border: 2px solid rgba(59, 59, 59, 0.5);
 }
 
 .content {
