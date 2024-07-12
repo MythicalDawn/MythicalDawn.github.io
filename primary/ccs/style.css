@@ -35,14 +35,10 @@ h1{
     display: block;
     text-align: center;
     font-weight: 600;
+    transition: 0.5s;
 }
 .navbar a:hover{
     background-color: rgba(56, 56, 56, 0.5);
-    transform-style: left;
-}
-.navbar a:hover::after{
-  background-color: rgba(56, 56, 56, 0.5);
-  transform-style: right;
 }
 .navbar li .left{
     float: left;
