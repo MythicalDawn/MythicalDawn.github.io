@@ -13,9 +13,6 @@ main{
     padding-bottom: 20px;
     padding-top: 20px;
 }
-h1{
-    text-align: center;
-}
 .navbar {
     position: sticky;
     top: 0;
@@ -37,8 +34,24 @@ h1{
     font-weight: 600;
     transition: 0.5s;
 }
+.navbar button{
+  color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(56, 56, 56, 0.0);
+  text-decoration: none;
+  padding: 14px;
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  font-size: large;
+  transition: 0.5s;
+}
+.navbar button:hover{
+  cursor: pointer;
+  background-color: rgba(56, 56, 56, 0.5);
+}
 .navbar a:hover{
-    background-color: rgba(56, 56, 56, 0.5);
+  cursor: pointer;
+  background-color: rgba(56, 56, 56, 0.5);
 }
 .navbar li .left{
     float: left;

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="ccs/footer.css"/>
     <link rel="stylesheet" href="ccs/style.css" />
     <link rel="stylesheet" href="ccs/Login.css" />
+    <script src="javaScript/bl-Tool-Tip.js"></script>
 </head>
 <html lang="en" id="page-container">
 <body id="content-wrap">
@@ -14,7 +15,7 @@
             <li><a class="left" href="home">Home</a></li>
             <li><a class="left" href="../store/index">Store</a></li>
             <li><a class="left" href="html">Html Notes</a></li>
-            <li><a class="right" style="cursor: default;">Mythical Dawn</a></li>
+            <li><button class="right" id="btnLogin-popup">Login</a></li>
         <!--
             <li><a href="../Everflame/home">Everflame</a></li>
         -->
@@ -22,6 +23,9 @@
     </nav>
 
     <div class="wrapper" style="margin: auto;margin-top: 50px;">
+        <span class="icon-close" style="z-index:1;">
+        <ion-icon name="close-circle-outline"></ion-icon>
+    </span>
         <div class="form-box login">
             <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Login</h2>
             <form action="#">
@@ -45,7 +49,37 @@
                 </div>
             </form>
         </div>
+
+        <div class="form-box register">
+            <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="conditions-link">
+                    <label><input type="checkbox">I agree to the terms & <a href="#">conditions</a></label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
     </div>
+
+    <script src="javaScript/Login-Register.js"></script>
 
     <main>
 
