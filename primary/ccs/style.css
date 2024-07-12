@@ -38,13 +38,11 @@ h1{
 }
 .navbar a:hover{
     background-color: rgba(56, 56, 56, 0.5);
-    transform-origin: left;
-    transform: scaleX(0);
+    transform-style: left;
 }
 .navbar a:hover::after{
   background-color: rgba(56, 56, 56, 0.5);
-  transform-origin: right;
-  transform: scaleX(1);
+  transform-style: right;
 }
 .navbar li .left{
     float: left;
