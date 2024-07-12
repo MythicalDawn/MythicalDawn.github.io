@@ -39,9 +39,13 @@ h1{
 .navbar a:hover{
     background-color: rgba(56, 56, 56, 0.5);
 }
-.navbar li{
+.navbar li .left{
     float: left;
-    border: 2px solid rgba(59, 59, 59, 0.5);
+    border: 2px solid rgba(59, 59, 59, 0.25);
+}
+.navbar li .right{
+  float: right;
+  border: 2px solid rgba(59, 59, 59, 0.25);
 }
 
 .content {
